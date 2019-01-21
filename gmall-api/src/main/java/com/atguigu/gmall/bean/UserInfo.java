@@ -1,6 +1,8 @@
 package com.atguigu.gmall.bean;
 
-public class UserInfo {
+import java.io.Serializable;
+
+public class UserInfo implements Serializable {
 
     String id;
     String loginName;
